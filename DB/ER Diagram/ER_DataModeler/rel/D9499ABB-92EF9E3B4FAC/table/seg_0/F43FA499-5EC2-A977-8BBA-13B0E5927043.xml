@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F43FA499-5EC2-A977-8BBA-13B0E5927043" name="user_details">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>8C327D30-5972-8959-7C5C-F5CBEBC79184</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="74C2539E-4B85-375C-21E6-5D70452AAB72">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>8717C4CB-7324-BCC9-7A0D-42A4FD536BF8</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_name" id="096CE103-4C78-5857-2A7E-BB8CE7721204">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>1A366E67-4EE6-DA21-A614-B36ECFFD2AA5</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="1DA7F666-744A-3845-4CF8-568B18D01800">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>066CD010-6054-2753-F4D9-6B1A222E2D1E</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="6029F2D4-8A7F-8BC5-DA53-B7ECC6FD5E80">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>DFC6EC43-D085-92ED-F23B-527594B5C8D4</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="7C519D05-1929-2805-A623-64DB5DD6E9C5">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>7ED7B421-351D-F786-5538-0847046147A2</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="9862BC91-ADEE-393C-4C71-1FB89B9D3092">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>08663240-A4E3-AA45-C3F9-0CC18446997B</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contact_number" id="05CE8428-CD0E-8EFF-1188-089C25A0DCD9">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>8C899220-1A16-1606-3F69-6FEEA53A2219</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_role_role_id" id="792FE5F7-B9C4-A46A-DB5C-F62CF261F179">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>08E07523-D3E4-81A8-C2EC-7D094917CC50</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43F5024F-4A5D-EB18-C218-D337E9BAAB9A" referredColumn="7C43990D-12EB-269B-6832-AF885E43462C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C74100B-187D-A96D-EDB2-28A1C72BB101" name="user_details_PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>94F5B660-6D54-1D60-1FDC-07DC6BF66F4F</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C2539E-4B85-375C-21E6-5D70452AAB72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00B9C207-164D-ACCA-E2F5-CE02E02ACB7C" name="user_details_user_name_UN">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>46370547-3C70-527B-4876-DD1F22D88D5B</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="096CE103-4C78-5857-2A7E-BB8CE7721204"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69A7B65B-543C-E3DB-AE87-3AB5EAB2390C" name="user_details_user_role_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>DE72593D-024C-6C88-649B-8C60BE6674FD</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="792FE5F7-B9C4-A46A-DB5C-F62CF261F179"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

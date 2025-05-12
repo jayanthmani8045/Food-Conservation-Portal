@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C327D30-5972-8959-7C5C-F5CBEBC79184" name="user_details">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 22:51:38 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="8717C4CB-7324-BCC9-7A0D-42A4FD536BF8">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 22:52:56 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_name" id="1A366E67-4EE6-DA21-A614-B36ECFFD2AA5">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 22:54:34 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="066CD010-6054-2753-F4D9-6B1A222E2D1E">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 23:02:10 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="DFC6EC43-D085-92ED-F23B-527594B5C8D4">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 23:04:08 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="7ED7B421-351D-F786-5538-0847046147A2">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 23:08:18 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="08663240-A4E3-AA45-C3F9-0CC18446997B">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 00:28:20 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact_number" id="8C899220-1A16-1606-3F69-6FEEA53A2219">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 00:28:51 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="role_id" id="08E07523-D3E4-81A8-C2EC-7D094917CC50">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 01:49:15 UTC</createdTime>
+<generatorID>DE72593D-024C-6C88-649B-8C60BE6674FD</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<referedAttribute>4B4C703F-630B-5C4D-FDA9-E3B56ECD7712</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94F5B660-6D54-1D60-1FDC-07DC6BF66F4F" name="users PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 22:54:21 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8717C4CB-7324-BCC9-7A0D-42A4FD536BF8</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="46370547-3C70-527B-4876-DD1F22D88D5B" name="user_name_unique">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 23:11:13 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="false"/>
+</engineerTo>
+<newElementsIDs>1A366E67-4EE6-DA21-A614-B36ECFFD2AA5</newElementsIDs>
+<usedAttributes>
+<attributeRef>1A366E67-4EE6-DA21-A614-B36ECFFD2AA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05F747C1-28EB-8662-EC85-D2207DDFC17A" name="supplier">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 23:15:39 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="supplier_id" id="8FB11879-0E8D-02F0-E619-CE153AAD57A0">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 23:15:57 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supplier_name" id="4B6F48F4-F1E8-11E1-1E0E-834B1E6D82F1">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 23:21:56 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="38ED2CB9-E804-95A3-0094-A2ADF1EE2FD5">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 02:02:37 UTC</createdTime>
+<generatorID>BF73CB8A-F514-24C8-74F8-286526AC8F3B</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<referedAttribute>8717C4CB-7324-BCC9-7A0D-42A4FD536BF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF0A0B5F-29C5-64F9-D8ED-7BE162520DF0" name="supplier PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-23 23:21:51 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FB11879-0E8D-02F0-E619-CE153AAD57A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

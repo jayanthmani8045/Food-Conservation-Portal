@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="890CD11B-AF5B-5A97-0E13-1C083248341C" name="logistic">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>6A83CD91-3495-361A-F30C-93F850945C02</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="logistics_id" id="BCD7EE4C-73D7-D867-98F7-C58AE9045CEF">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>CE2B91A2-4034-6111-1658-366EB79F70EB</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="driver" id="6C7397F0-01E8-40D0-B224-567E6D8D5BF3">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>3DAE1EAC-3325-5284-7AA8-733392847C69</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="delivery_status" id="5959544D-51DE-6FEA-5051-B0AA16319F78">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[true = delivered
+false = not delivered]]></commentInRDBMS>
+<generatorID>311C8992-5EEF-90EE-DBE3-64B6915AEFC6</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ngo_request_ngo_request_id" id="C27FD466-4A2B-B848-9F38-94678D6903E4">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>01A5DCB6-76FA-07C8-F8CB-991C98D6E3A4</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1659989B-8D18-4FD8-084D-1486E5B25967" referredColumn="48226004-4BD8-A001-7160-EC72D174DB0B"/>
+</associations>
+</Column>
+<Column name="user_details_user_id" id="3AD7302F-7A7B-B6B7-688F-4D0EC08DCA5E">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>2E45BBE3-9082-9C17-0A6B-7935F2937A7B</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27F55E5C-4F07-EC9D-9FA3-E70F29DF25C8" referredColumn="74C2539E-4B85-375C-21E6-5D70452AAB72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A126957-A106-AFB4-2B07-1C6378F40744" name="logistic_PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>F5696823-FE49-31C9-4034-9496E59B58CD</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCD7EE4C-73D7-D867-98F7-C58AE9045CEF"/>
+<colUsage columnID="3AD7302F-7A7B-B6B7-688F-4D0EC08DCA5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F635C3E-2A8C-CADF-8373-D684E3655BF8" name="logistic_ngo_request_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>FBEB6A67-6954-2BCC-B62A-0B8BCA874914</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C27FD466-4A2B-B848-9F38-94678D6903E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34F51C8D-230D-861D-05D7-09118FFB0D5B" name="logistic_user_details_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>A6C8C2B5-584C-9109-5641-BDE6C38B2277</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AD7302F-7A7B-B6B7-688F-4D0EC08DCA5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

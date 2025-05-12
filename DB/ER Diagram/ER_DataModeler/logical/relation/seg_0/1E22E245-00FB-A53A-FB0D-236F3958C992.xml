@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="supplier_food_relation" directorySegmentName="seg_0" id="1E22E245-00FB-A53A-FB0D-236F3958C992">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 18:41:43 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>FF0A0B5F-29C5-64F9-D8ED-7BE162520DF0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>05F747C1-28EB-8662-EC85-D2207DDFC17A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3ABAA893-25B4-5888-D3B3-78D3556F8EE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

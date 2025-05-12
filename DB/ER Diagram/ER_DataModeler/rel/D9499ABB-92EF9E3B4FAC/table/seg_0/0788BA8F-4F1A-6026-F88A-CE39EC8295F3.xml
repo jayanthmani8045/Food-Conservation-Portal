@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0788BA8F-4F1A-6026-F88A-CE39EC8295F3" name="main_food_data">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>AEB9FCEC-9687-5E79-CD2D-9A7444E06A94</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="main_id" id="DDEE1B1B-AD46-1EF6-2CCB-64C42418D91D">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>295DDD89-83EA-639C-CC6D-7282ECBD06BF</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_quantity" id="BAE1BB2B-F17B-27E1-3A7F-464733DB4280">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>06DB715B-E10E-8439-2276-7BF66E029C04</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unit_of_measure" id="0C3C8294-8D0C-55B0-6F8B-5B6B88DAB5A3">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>F80E5CCC-27AA-D368-42C0-8C8FD5A7A3A9</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="food_status" id="F0CF5982-0DF2-F6BD-03C0-624E2DA4493F">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<commentInRDBMS><![CDATA["Disposed" "Available"]]></commentInRDBMS>
+<generatorID>D9FE544E-D4E4-2EB4-8997-4C6965D1AAF5</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="food_table_food_id" id="4521A80E-A338-0EF5-5934-D002A216971C">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>5B6CB988-7E88-30BC-DD84-D21990E93BDB</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,0,100</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E89D2A52-C7B4-EBD7-2A77-1B6FE59D4A7E" referredColumn="94596E62-40CE-42B6-E398-134D7FCDF3C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E75D8CD-FCEC-020C-B667-883B68BA8B8A" name="main_food_data_PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>AB64D9DF-F7F9-B742-1135-CD01251E0D55</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDEE1B1B-AD46-1EF6-2CCB-64C42418D91D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1F249D9-71CF-D23C-3017-248B9A513588" name="main_food_data_food_table_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>4B6C04E4-D510-ADB0-259E-D24F96C286B8</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4521A80E-A338-0EF5-5934-D002A216971C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

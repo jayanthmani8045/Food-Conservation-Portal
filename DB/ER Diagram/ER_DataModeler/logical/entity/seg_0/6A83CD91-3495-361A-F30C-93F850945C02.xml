@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A83CD91-3495-361A-F30C-93F850945C02" name="logistic">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 00:35:59 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="logistics_id" id="CE2B91A2-4034-6111-1658-366EB79F70EB">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 00:36:07 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver" id="3DAE1EAC-3325-5284-7AA8-733392847C69">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 00:36:28 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="delivery_status" id="311C8992-5EEF-90EE-DBE3-64B6915AEFC6">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 00:36:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[true = delivered
+false = not delivered]]></commentInRDBMS>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ngo_request_id" id="01A5DCB6-76FA-07C8-F8CB-991C98D6E3A4">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 02:20:15 UTC</createdTime>
+<generatorID>FBEB6A67-6954-2BCC-B62A-0B8BCA874914</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<referedAttribute>B67DE0C6-A4E7-AADD-CE9A-DC94717721F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="2E45BBE3-9082-9C17-0A6B-7935F2937A7B">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 03:00:24 UTC</createdTime>
+<generatorID>A6C8C2B5-584C-9109-5641-BDE6C38B2277</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<referedAttribute>8717C4CB-7324-BCC9-7A0D-42A4FD536BF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5696823-FE49-31C9-4034-9496E59B58CD" name="logistics PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 00:36:24 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE2B91A2-4034-6111-1658-366EB79F70EB</attributeRef>
+<attributeRef>2E45BBE3-9082-9C17-0A6B-7935F2937A7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

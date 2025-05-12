@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ngo_req_delivery" directorySegmentName="seg_0" id="FBEB6A67-6954-2BCC-B62A-0B8BCA874914">
+<createdBy>manij</createdBy>
+<createdTime>2025-03-24 02:19:44 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>F5696823-FE49-31C9-4034-9496E59B58CD</sourcePk>
+<targetPk>67FEAC45-9D20-C78A-5EFA-8EA901AA46B9</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6A83CD91-3495-361A-F30C-93F850945C02</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2BE96F1B-A535-5330-1E96-6096DE29EB68</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

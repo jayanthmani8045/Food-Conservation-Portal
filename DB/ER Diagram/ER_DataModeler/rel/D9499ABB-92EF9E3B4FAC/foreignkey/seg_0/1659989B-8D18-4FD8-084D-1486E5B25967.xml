@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1659989B-8D18-4FD8-084D-1486E5B25967" containerWithKeyObject="890CD11B-AF5B-5A97-0E13-1C083248341C" localFKIndex="8F635C3E-2A8C-CADF-8373-D684E3655BF8" name="logistic_ngo_request_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:31:00 UTC</createdTime>
+<generatorID>FBEB6A67-6954-2BCC-B62A-0B8BCA874914</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<referredTableLongName>ngo_request</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F29F3B7-F229-EEB8-0B3E-C46A4919BF1A</referredTableID>
+<keyObject>69370225-FEDC-4B12-5A04-4050EAE59360</keyObject>
+<referredKeyID>69370225-FEDC-4B12-5A04-4050EAE59360</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ngo_request_id</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

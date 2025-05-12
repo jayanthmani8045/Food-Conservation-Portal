@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3ABAA893-25B4-5888-D3B3-78D3556F8EE8" name="food_table">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 18:31:38 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="food_id" id="72471069-3680-ABC1-7F88-8226C89017D4">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 18:32:15 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,0,100</ownDataTypeParameters>
+</Attribute>
+<Attribute name="food_name" id="0A048E76-2FD6-997A-6484-D1ECC652456D">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 18:33:16 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unit_of_measure" id="03720AEC-DD0F-4362-7F70-99EECA0A2653">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 18:34:58 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supplier_id" id="CC2739BB-ACB3-487F-83B4-CE9953CE4E04">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 18:54:49 UTC</createdTime>
+<generatorID>1E22E245-00FB-A53A-FB0D-236F3958C992</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<referedAttribute>8FB11879-0E8D-02F0-E619-CE153AAD57A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quality" id="390E0CBF-7557-9AC5-1CC4-FC53A50E9D4A">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:01:24 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="FD5C2C57-ED8A-3C08-CD4C-E6602496B036">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 19:18:37 UTC</createdTime>
+<generatorID>7136ECE4-B8A0-1237-97FC-0610565D3156</generatorID>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="true"/>
+</engineerTo>
+<referedAttribute>8717C4CB-7324-BCC9-7A0D-42A4FD536BF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2E1CB68-0F9A-4B1F-D201-211CF91BAE3D" name="food_table PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-04-11 18:33:02 UTC</createdTime>
+<ownerDesignName>ER_DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D9499ABB-1234-594C-6AE2-92EF9E3B4FAC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72471069-3680-ABC1-7F88-8226C89017D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
