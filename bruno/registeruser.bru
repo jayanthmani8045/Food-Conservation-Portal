@@ -1,0 +1,27 @@
+meta {
+  name: registeruser
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8000/signup
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+      "role": "GOVT",
+      "username": "govt_user2",
+      "password": "G0vt$ecure123",
+      "first_name": "John",
+      "last_name": "Smith",
+      "address": "123 Government Ave, Washington DC, 20001",
+      "contact_number": "1202555014"
+    }
+}

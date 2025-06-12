@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Food Conservation Portal",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
