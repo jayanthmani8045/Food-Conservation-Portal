@@ -1,4 +1,4 @@
-# Food Waste Management Portal
+# Commercial Kitchen Recovery Hub
 
 A full‑stack application to manage surplus food collection, distribution, logistics, and quality assessment using Oracle Database, FastAPI, and React.
 
