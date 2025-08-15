@@ -5,8 +5,8 @@ The Food waste Management System has been designed to help reduce food waste in 
 # Documents included
 1. Business rules - [Business Rules Documentation for Food_waste system.pdf](https://github.com/jayanthmani8045/Food-Conservation-Portal/blob/main/DB/Business%20Rules%20Documentation%20for%20Food_waste%20system.pdf)
 2. Data flow diagram - [food_waste_management_system DFD.pdf](https://github.com/jayanthmani8045/Food-Conservation-Portal/blob/main/DB/food_waste_management_system%20DFD.pdf)
-4. Entity relationship diagram
-![Relational Diagram](https://github.com/jayanthmani8045/Food-Conservation-Portal/blob/main/DB/ER%20Diagram/Relational_1.pdf)
+4. Entity relationship diagram -
+![Relational Diagram](https://github.com/jayanthmani8045/Food-Conservation-Portal/blob/main/DB/ER%20Diagram/Relational_ER.png)
 
 
 ## Tech Stack
