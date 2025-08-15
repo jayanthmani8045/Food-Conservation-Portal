@@ -98,7 +98,7 @@ For all subsequent steps, you must be connected as the newly created `food_admin
 
 ## Testing
 
-Create samples users from **`food_admin`** account. useing 
+Create samples users from **`food_admin`** account. using 
 
 ```
 DB/Access/test user creation with package.sql
