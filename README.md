@@ -98,7 +98,13 @@ For all subsequent steps, you must be connected as the newly created `food_admin
 
 ## Testing
 
-To create sample users for testing different application roles, run the following scripts. It is recommended to run these while connected as the **`food_admin`** user.
+Create samples users from **`food_admin`** account. useing 
+
+```
+DB/Access/test user creation with package.sql
+```
+
+After creating sample users for testing different application roles, run the following scripts in respective accounts.
 
 1.  **Government Users:**
 
